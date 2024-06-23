@@ -9,7 +9,7 @@ from docx.shared import Pt, Inches, RGBColor
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 from docx.enum.style import WD_STYLE_TYPE
 
-palm.configure(api_key='AIzaSyC9TX27bwGfVWnW13f_l6LMitUOUNCZFww')
+palm.configure(api_key='YOUR KEY')
 model = palm.GenerativeModel('gemini-1.0-pro')
 generation_config = {'temperature' : 0.9}
 
